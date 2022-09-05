@@ -1,0 +1,107 @@
+/*pseudo clases */
+a:hover {
+  background-color: fuchsia;
+  font-size: larger; }
+
+body {
+  background-image: url(../img/rosa.jpg);
+  font-style: normal;
+  font-size: medium;
+  text-align: center;
+  /*estilos de producto */ }
+  body header nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  body header h1 {
+    font-size: x-large;
+    color: #d13c6e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: #e4e4a9; }
+  body .productos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #c9c989; }
+    body .productos .caja {
+      margin: 50px;
+      padding: 25px;
+      background-color: #eeb2eb;
+      text-align: center;
+      line-height: 150px;
+      font-style: italic;
+      color: #e709e7;
+      font-size: x-large;
+      border: solid #e709e7; }
+
+#whatsapp {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  right: 0; }
+
+p {
+  background-color: #c9c989;
+  margin: 100px;
+  padding: 150px;
+  border-style: dashed;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  color: #e709e7; }
+
+.regular {
+  background-color: fuchsia;
+  margin: 20px;
+  padding: 30px;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: cornsilk; }
+
+.novedades {
+  width: 33px;
+  height: 40px;
+  margin: 1rem;
+  padding: 6rem;
+  text-align: center;
+  background-color: #ebeb95;
+  line-height: 9px;
+  border: 2px solid fuchsia;
+  box-shadow: 2px 2px 5px;
+  font-style: normal;
+  font-size: medium;
+  font-family: 'Courier New', Courier, monospace;
+  color: fuchsia;
+  text-align: center; }
+
+footer h2 {
+  text-align: center;
+  background-color: #c9c989;
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #e709e7;
+  margin: 20px;
+  padding: 20px; }
+
+/*estilos de contacto*/
+.formulario {
+  text-align: center;
+  color: #a36a7d;
+  background-color: #c9c989;
+  display: inline-block;
+  width: 500px;
+  height: 300px;
+  margin-left: 350px;
+  margin-top: 100px;
+  margin-right: 170px;
+  margin-bottom: 150px;
+  border-style: solid; }
+
+.instagram {
+  background-color: #d13c6e;
+  margin: 20px;
+  padding: 30px;
+  text-align: center; }
+  .instagram a {
+    font-size: large;
+    color: cornsilk; }

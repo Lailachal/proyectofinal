@@ -1,0 +1,23 @@
+@mixin medidas($width, $height){
+    width: $width;
+    height: $height;
+
+}
+
+@mixin box-model {
+    margin: 1rem;
+    padding: 6rem;
+    text-align: center;
+    background-color: rgb(235, 235, 149);
+    
+    line-height: 9px;
+    
+    border: 2px solid fuchsia;
+    box-shadow: 2px 2px 5px;
+    font-style: normal;
+    font-size: medium;
+
+    font-family: 'Courier New', Courier, monospace;
+    color: fuchsia;
+    
+}

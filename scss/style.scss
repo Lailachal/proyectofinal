@@ -1,0 +1,140 @@
+@import "base/variables";
+@import "base/mapas";
+@import "base/mixin";
+/*pseudo clases */
+a:hover{
+    background-color: $color-hover;
+    font-size: larger;
+
+}
+
+
+body{
+
+
+    background-image: url(../img/rosa.jpg);
+    font-style: normal;
+    font-size: medium;
+    text-align: center;
+
+        
+   
+
+    header{
+        nav{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+        }
+        h1{
+            font-size: x-large;
+            color: $color-principal;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            background-color: rgb(228, 228, 169);
+        }
+    }
+    /*estilos de producto */
+
+    .productos{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 80%;
+        margin: 0 auto;
+        background-color: $color-secundario;
+
+        .caja{
+            margin: 50px;
+            padding: 25px;
+            background-color: rgb(238, 178, 235);
+            text-align: center;
+            line-height: 150px;
+            font-style: italic;
+            color: $color-detalles;
+            font-size: x-large;
+            border: solid $color-detalles;
+        }
+
+    }
+    
+    }
+ #whatsapp{        
+        display: block;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        }
+
+    p{
+        background-color: $color-secundario;
+        margin: $medidacaja;
+        padding: $paddingdecaja;
+        border-style: dashed;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: medium;
+        color: $color-detalles;
+        
+
+    }
+
+    .regular{
+        background-color: map-get($map: $regular, $key: bg-regular);
+        margin: 20px;
+        padding: 30px;
+        font-size: large;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: cornsilk;
+
+        
+    }
+
+    .novedades{
+        @include medidas(33px,40px);
+        @include box-model;
+        text-align: center;
+
+    }
+    footer{
+        h2{
+            text-align: center;
+            background-color: $color-secundario;
+            font-size: small;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: $color-detalles;
+            margin: 20px;
+            padding: 20px;
+        }
+
+    }
+    /*estilos de contacto*/
+    .formulario{
+        text-align: center;
+        color: rgb(163,106,125);
+        background-color: $color-secundario;
+        display: inline-block;
+        width: 500px;
+        height: 300px;
+        margin-left: 350px;
+        margin-top: 100px;
+        margin-right: 170px;
+        margin-bottom: 150px;
+        border-style: solid;
+
+
+    }
+
+    .instagram{
+        background-color: $color-principal;
+        margin: 20px;
+        padding:30px;
+        text-align: center;
+        a{
+            font-size: large;
+            color: cornsilk;
+            
+            
+        }
+    
+
+    
+}
